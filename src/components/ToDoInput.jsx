@@ -18,7 +18,7 @@ const ToDoInput = ({addTask}) => {
                value={input}
                onChange={(e) => setInput(e.target.value)}
         />
-        <button className='btn'><FiPlus /></button>
+        
     </form>
   )
 }
