@@ -8,7 +8,6 @@ const Task = ({ task, index, deleteTask, editTask, toggleComplete, setEditingInd
     const handleSave = (editText) => {
         if (editText.trim()) {
             console.log(editText);
-            
             editTask(index, editText);
             setEditingIndex(null); 
         }

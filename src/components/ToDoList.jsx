@@ -10,7 +10,7 @@ const ToDoList = ({ todoList, toggleComplete, editTask, deleteTask, setEditingIn
           task={task} 
           index={index}
           toggleComplete={toggleComplete}
-          deleteTask={() => deleteTask(index)}
+          deleteTask={deleteTask}
           editTask={editTask}
           setEditingIndex={setEditingIndex}
           isEditing={editingIndex === index}

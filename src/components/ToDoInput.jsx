@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import { FiPlus } from "react-icons/fi";
 
 const ToDoInput = ({addTask}) => {
     const [input, setInput] = useState('');
